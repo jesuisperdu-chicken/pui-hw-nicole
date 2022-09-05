@@ -1,15 +1,78 @@
+<!-- NICOLE LOUIE 
+NLOUIE
+PRODUCT GALLERY PG
+ -->
+
+<!-- Bhavya helped me set up my github and folders because I had downloaded it wrong.  She also helped me set up my github link correctly -->
+<!-- Jacob explained how to add an image from a local file since I didnt need the whole link because I moved it into the HW folder and that I could shorten the code link since it's in my HW folder and the program knows it's pulling from there -->
+
 <!DOCTYPE html>
 <html lang="en">
   <meta charset="UTF-8">
-  <title>Page Title</title>
-  
+  <title>PRODUCT GALLERY</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+
   <body>
 
-    <h1>I am the solution to HW1! trial</h1>
+    <!-- <a href="CART"> CART</a> -->
+    <!-- <a href= '#'>logo link</a> -->
+    <!-- I DONT THINK THIS IS RIGHT.. NEED TO REVISIT SO IT GOES TO PRODUCT PAGE W/O TEXT LINK-->
 
-    <p>
-        And I can link to <a href="./otherpage.html">other pages.</a>
-    </p>
+    <a href="/solution-hw1/index.html">
+      <!-- https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML -->
+    <img src="HW1/logo/logo-01.svg" id="image" alt="bon bon logo" width="200">
+    </a>
+    <hr/>
+    <!-- https://sebhastian.com/html-divider-hr/#:~:text=The%20HTML%20tag%20is,dividing%20sections%20of%20a%20page.&text=Web%20browsers%20tend%20to%20style,line%20using%20the%20border%20property. -->
+   <div> 
+    <a href="/solution-hw1/index.html" style="text-decoration: none">
+      <h1>PRODUCTS</h1> 
+    </a>
+    <!--LINKS w/o uunderlining https://www.computerhope.com/issues/ch000074.htm -->
+    
+    <a href="./cart.html" style="text-decoration: none">
+      <P>CART</P>
+    </a>
 
+    <BR>
+    <P style="font-size: 20px;">Our hand-made cinnamon rolls </P> 
+      <!-- https://www.tutorialspoint.com/How-to-change-font-size-in-HTML -->
+     
+      <a href="./products.html" style="text-decoration: none">
+       <img src="HW1/products/original-cinnamon-roll.jpg" id="image1" alt="original cinnamon roll" width="200" class="center"/> 
+        <!-- learned to use class via https://www.w3schools.com/howto/howto_css_image_center.asp and then added it to my CSS file  -->
+        <P style="font-size: 16px;">Original cinnamon roll <br> $2.49 </P> 
+      </a>
+
+      <a href="./products.html" style="text-decoration: none">
+        <img src="HW1/products/apple-cinnamon-roll.jpg" id="image2" alt="apple cinnamon roll" width="200" class="center"/>
+        <P style="font-size: 16px;">Apple cinnamon roll <br> $3.49 </P> 
+      </a>
+   
+     <a href="./products.html" style="text-decoration: none">
+       <img src="HW1/products/raisin-cinnamon-roll.jpg" id="image1" alt="raisin cinnamon roll" width="200" class="center"/>
+       <P style="font-size: 16px;">Raisin cinnamon roll <br> $2.99 </P> 
+      </a>
+
+    <a href="./products.html" style="text-decoration: none">
+      <img src="HW1/products/walnut-cinnamon-roll.jpg" id="image1" alt="walnut cinnamon roll" width="200" class="center"/>
+      <P style="font-size: 16px;">Walnut cinnamon roll <br> $3.49 </P> 
+    </a>
+
+    <a href="./products.html" style="text-decoration: none">
+      <img src="HW1/products/double-chocolate-cinnamon-roll.jpg" id="image1" alt="double chocolate cinnamon roll" width="200" class="center"/>
+      <P style="font-size: 16px;">Double chocolate cinnamon roll <br> $3.99 </P> 
+    </a>
+
+    <a href="./products.html" style="text-decoration: none">
+      <img src="HW1/products/strawberry-cinnamon-roll.jpg" id="image1" alt="strawberry cinnamon roll" width="200" class="center"/>
+      <P style="font-size: 16px;">Strawberry cinnamon roll <br> $3.99 </P> 
+    </a>
+
+    <!-- <p>
+        And I can link to <a href="./products.html">other pages.</a>
+    </p> -->
+  </div>
   </body>
 </html>
