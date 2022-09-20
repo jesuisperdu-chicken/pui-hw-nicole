@@ -1,0 +1,303 @@
+/* Nicole Louie
+NLOUIE
+began from the lab demo to do HW2. 
+couldn't figure out how to do this from HW1 */
+
+body {
+    margin: -10px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+.gallery {
+    display: flex;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    justify-content: space-between;
+    flex-grow: wrap;
+  }
+
+  .bigText {
+    font-size: 24px;
+  }
+  
+.galleryHeader-main-content {
+    display: flex;
+  }
+
+
+
+hr.new1 {
+    border: 2px solid black;
+    flex-grow: auto;
+    margin-right: 0px;
+    margin-left:0px;
+    width: 100%;
+  }
+  /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_style_hr */
+  /* Aradhana helped me transform my little hr line from a dot to a full on line */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    /* see html page for my source on class. adding a border https://www.w3schools.com/howto/howto_css_border_image.asp */
+     }
+
+a { 
+  text-decoration: none;
+}
+
+a:hover {
+    background-color: yellow;
+    /* width: auto;
+    margin-left: auto;
+    margin-right: auto; */
+    border: 1px solid yellow;
+    font-weight: bolder;  
+  }
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /* https://blog.hubspot.com/website/html-dropdown */
+
+.dropdown:hover .dropdown-content {
+   display: block;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+/* https://blog.hubspot.com/website/html-dropdown */
+
+.glazing {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+  }
+
+label {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    transition-duration: 0.4s;
+    display: flex;
+    /* flex: 0 1; */
+  }
+/* https://www.w3schools.com/css/css3_buttons.asp */
+
+.button:hover {
+    background-color: yellow;
+  }
+
+.button1:hover {
+    background-color: yellow;
+  }
+  /* https://www.w3schools.com/tags/tag_button.asp */
+
+p {
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+  }
+
+.galleryHeader-text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+.galleryHeader-links {
+    display: flex;
+    flex-grow: 0,1;
+    margin: 60px;
+    gap: 50px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 0px;
+  }
+
+#image{
+    margin: 40px;
+  }
+
+.gallery { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+
+.gallery1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+  }
+
+.gallery2 {
+    display: flex;
+    gap: 40px;
+  }
+
+.infoPrice {
+    display: flex;
+    align-content: flex-start;
+    width: 100%;
+  }
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight: lighter;
+  }
+
+h1:hover {
+    font-weight: bold;
+  }
+
+h2 {
+    font-size: 25px;
+    font-weight: normal;
+  }
+
+.productDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }
+
+.productDescription {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    padding-left: 25px;
+  }
+
+  .priceCart {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+.Glazing{
+    align-items: center;
+  }
+
+.shoppingCart {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: flex-end;
+    gap: 50px;
+  }
+  
+.cartItem1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+  }
+
+  .empty {
+    flex: 3;
+  }
+
+.orgCinroll {
+    flex: 8;
+    padding-right: 50px;
+  }
+
+.totalPrice {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    flex: 2 2 100%;
+ }
+
+#Dropdowns {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 35px
+ }
+
+.Menu2 {
+  padding-bottom: 100px;
+  width: 100%;
+ }
+
+.Menu {
+  padding-bottom: 100px;
+  width: 100%;
+ }
+
+.button1 {
+  margin-left: 100px;
+  font-size: 20px;
+  margin-right: 75px;
+ }
+
+.footer {
+  display: flex;
+  flex:auto;
+ } 
+ 
+.blankBox {
+  display: flex;
+  flex: auto;
+ }
+
+.rollCart {
+  display: flex;
+  flex-direction: column;
+  padding-right: 50px;
+ }
+ 
+.totalCost {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+ }
+
+.productText {
+  font-size: 16px;
+} 
+
+.textSmall {
+  font-size: 12px;
+ }
+
+#bottomBorder {
+  border-bottom: 5px solid black;
+  padding-bottom: 3%;
+ }
+
+.total {
+  flex: 5;
+ }
+
+.price {
+  flex: 2;
+  font-size: 20px;
+ }
+
+.checkoutButton {
+  flex: 3;
+ }
+
+#Button {
+  width: 55%;
+ }

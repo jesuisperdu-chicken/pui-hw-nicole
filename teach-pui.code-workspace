@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../teach-pui"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pui-hw-nicole"
+	}
+}
