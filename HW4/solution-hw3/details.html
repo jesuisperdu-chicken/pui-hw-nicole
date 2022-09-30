@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <title>PRODUCT GALLERY</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script src="rollsData.js" defer></script>
+  <script src="script.js" defer> </script>
+</head>
+
+
+<body>
+      <div class="galleryHeader-main-content">
+        <!-- <img class="galleryHeader-thumbnail" src="/HW2/logo/logo-01.svg" /> -->
+          <a href="index.html">
+            <!-- https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML -->
+            <img src="HW2/logo/logo-01.svg" id="image" alt="bon bon logo" width="400" >
+          </a>
+        <div class="galleryHeader-text">
+          <div class="galleryHeader-links"> 
+            <a href="index.html">
+              <h1>PRODUCTS</h1>  
+            </a>
+            <a href="cartUpdate.html"> 
+              <h1>CART</h1>
+            </a>
+          </div>
+          <hr class="new1">
+          <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_style_hr -->
+          <div class="gallery-title">
+            <h2>Original Cinnamon Roll</h2>
+          </div>
+        </div>
+      </div>
+<!-- I messed up how many divs I had and Bhavya helped me clean it up by pointing it out to me. She also told me that I needed divs within my divs in order for it to stack -->
+
+<div class="productDetail">
+    <div class="productImage" >
+        <img src="HW2/products/original-cinnamon-roll.jpg" id="image1" alt="original cinnamon roll" width="500" class="center"/> 
+    </div>
+    <div class="productDescription" > 
+      <div class="Menu2">
+        <div>Customize our delicious, </div> 
+        <div>hand-made cinnamon rolls to</div>  
+        <div> your liking!</div>
+      
+        </div>
+        <div class="Menu">
+            <label for="glazing">Glazing:</label>
+             <select name="glazing" class="Dropdowns" id="glazingDropdown" onchange="glazingChange(this)" ></select>
+              
+       
+             <label for="packSize">Pack Size:</label>
+              <select name="pack-size" class="Dropdowns" id="packSizeDropdown" onchange="packSizeChange(this)"></select>
+              
+
+       </div>
+       <div class="priceCart">
+            <div class="total" id="itemPrice">
+              $2.49
+            </div>
+             <div class="checkoutButton">
+              <button class="button1" id="Button" onclick="addToCart()">Add to cart</button> 
+             </div>
+            </div>
+        </div>
+    </div>
+    <!-- https://www.w3schools.com/css/css3_buttons.asp -->
+</div>
+
+
+<!-- ----------HW4=----- -->
+
+
+
+</body>
+</html>
