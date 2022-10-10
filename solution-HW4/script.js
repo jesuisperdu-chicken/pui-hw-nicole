@@ -50,14 +50,14 @@ for (let i = 0; i < listObjs.length; i++) {
 
 let selectedPackSize = listObjs[0];
 function packSizeChange(element) {
-  console.log('pack size change');
-  console.log(element);   //  <select>...</select> dropdown
-  console.log(element.selectedIndex);   // shows the index of the selected option in the dropdown
+  // console.log('pack size change');
+  // console.log(element);   //  <select>...</select> dropdown
+  // console.log(element.selectedIndex);   // shows the index of the selected option in the dropdown
   selectedPackSize = listObjs[element.selectedIndex];
-  console.log("selectedPackSize: ");
-  console.log (selectedPackSize)
+  // console.log("selectedPackSize: ");
+  // console.log (selectedPackSize)
   const newPackPrice = parseFloat(element.value);
-  console.log(newPackPrice);
+  // console.log(newPackPrice);
 
   packPrice = newPackPrice
   calculateNewPrice();
@@ -65,12 +65,12 @@ function packSizeChange(element) {
 
 let selectedGlazing = listObj[0];
 function glazingChange(element) {
-  console.log ("glazingChange");
-  console.log(element);   //  <select>...</select> dropdown
-  console.log(element.selectedIndex);   // shows the index of the selected option in the dropdown
+  // console.log ("glazingChange");
+  // console.log(element);   //  <select>...</select> dropdown
+  // console.log(element.selectedIndex);   // shows the index of the selected option in the dropdown
   selectedGlazing = listObj[element.selectedIndex];
-  console.log("selectedGlazing: ");
-  console.log(selectedGlazing);
+  // console.log("selectedGlazing: ");
+  // console.log(selectedGlazing);
 
   const newGlazingPrice = parseFloat(element.value);
   console.log("newGlazingPrice: " + newGlazingPrice);
