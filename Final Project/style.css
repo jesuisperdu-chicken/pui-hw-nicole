@@ -1,0 +1,212 @@
+
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* margin-left: 100px;
+	margin-right: 100px; */
+	margin: 0px 100px;
+}
+
+#homePage {
+	text-decoration: none; 
+	color: inherit;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	font-family: Abril Fatface;
+}
+
+.bagName {
+	text-align: left;
+	font-family: Prata;
+}
+
+.bagHistory, .BagPopCultureRef{
+	font-family: Oxygen, sans-serif;
+}
+
+.homeLink2{
+	margin: -20px;
+}
+
+.gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}
+.tile {
+	height: 271px;
+	width: 33.33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.row1 {
+	display: flex;
+}
+
+.birkinBox {
+	background-color: #66CA4D;
+}
+.birkinImg {
+	display: flex;
+	justify-content: center;
+}
+
+.classicFlapBox {
+	background-color: #75FCFD;
+}
+
+.classicFlapImg {
+	display: flex;
+	justify-content: center;
+}
+
+.cityBox {
+	background-color: #FFFF55;
+}
+
+.cityImg {
+	display: flex;
+	justify-content: center;
+}
+
+.row2 {
+	display: flex;
+}
+
+.kellyBox {
+	background-color: #FF63B3;
+}
+
+.kellyImg {
+	display: flex;
+	justify-content: center;
+}
+
+.jackieBox {
+	background-color: #FFFFFF;
+}
+
+.jackieImg{
+	display: flex;
+	justify-content: center;
+}
+
+.ladyBox{
+	background-color: #FF7629;
+}
+
+.ladyImg{
+	display: flex;
+	justify-content: center;
+}
+
+.row3 {
+	display: flex;
+}
+
+.reissueBox {
+	background-color: #2E2E2E;
+}
+
+.reissueImg{
+	display: flex;
+	justify-content: center;
+}
+
+.speedyBox{
+	background-color: #FF3737;
+}
+
+.speedyImg{
+	display: flex;
+	justify-content: center;
+}
+
+.baguetteBox {
+	background-color: #A501DE;
+}
+
+.baguetteImg {
+	display: flex;
+	justify-content: center;
+}
+
+.center {
+	width: 150px;
+}
+
+@media screen and (min-width: 1200px) {
+	.center {
+		width: 250px;
+	}
+}
+
+.bagInfoAndImgs {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+
+.imageColumns{
+	display: flex;
+	flex-direction: row;
+	padding-left: 10%;
+	padding-right: 10%;
+	justify-content: center;
+}
+
+#image1 {
+	width: 100%;
+	margin-right: 3%;
+	padding-bottom: 4%;
+}
+
+.row2Img {
+	display: flex;
+	flex-direction: wrap;
+	justify-content: center;
+	/* padding: 4%; */
+	width: 98%;
+}
+
+#image7{
+	width: 100%;
+	margin-left: 3%; 
+	padding-bottom: 4%;
+}
+
+.productImage4{
+	width: auto;
+}
+
+#image4 {
+	max-width: 100%;
+}
+
+#loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #ffffff url(murakami/murakami-loop.gif) no-repeat center;
+	z-index: 999;
+}
+
+p {
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
