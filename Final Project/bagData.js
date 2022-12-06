@@ -83,7 +83,7 @@ const bags= {
     }, 
 
     "Chanel-Reissue":{
-        "imageFile":"/the rest of the pop culture images/reissue left.png",
+        "imageFile":"the rest of the pop culture images/reissue left.png",
         "bagHistory": "The lock on the Reissue is the original lock, it is called the Mademoiselle Lock as Ms Coco Chanel never married, the ‘CC’ lock was introduced to \
         the Classic Flap Bags only in the 1980s by designer Karl Lagerfeld. The 2.55 in its name refers to the first release of the 2.55 bag in February of 1955. Coco Chanel \
         grew up in an orphanage/convent, therefore, the double chain shoulder strap comes from when the children’s’ caretakers in the orphanage would dangle keys from their waists \
